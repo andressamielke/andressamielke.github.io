@@ -10,5 +10,7 @@ layout: default
 ![img](/assets/img/bio.jpg)
 
 Doutoranda em Economia Aplicada - Universidade Federal do Rio Grande do Sul
+
 Mestre em Economia Aplicada - Universidade Federal de Pelotas
+
 Bacharel em Ciências Econômicas - Universidade Federal de Pelotas
