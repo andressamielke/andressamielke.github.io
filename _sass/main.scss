@@ -28,6 +28,14 @@ body {
 //   opacity: 0.5;
 // }
 
+.hero-capa {
+  background-image: url(/assets/img/capa.jpg) ;
+background-position: center center;
+background-repeat:  no-repeat;
+//background-attachment: fixed;
+background-size:  cover;
+}
+
 .footer {
   background-image: linear-gradient(to bottom, white, $backgroundColor);
 }

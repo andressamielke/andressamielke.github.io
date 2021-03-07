@@ -7,4 +7,8 @@ layout: default
 
 # Sobre
 
+Exemplo de imagem:
+
+![img](/assets/img/bio.png)
+
 teste teste!
