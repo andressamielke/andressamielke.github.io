@@ -9,6 +9,6 @@ layout: default
 
 Exemplo de imagem:
 
-![img](/assets/img/bio.png)
+![img](/assets/img/bio.jpg)
 
 teste teste!
