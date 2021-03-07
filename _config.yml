@@ -1,0 +1,31 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+title: "Andressa Vasconcelos | Site pessoal"
+description: "Teste teste"
+lang: "pt-BR"
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Meu site" # the name of your site, e.g. ACME Corp.
+
+permalink: /posts/:title:output_ext
+
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: andressa-vasconcelos-site-pessoal
+
+social:
+  name: Andressa Mielke Vasconcelos
+  links:
+    - https://www.linkedin.com/in/nome/
+    - https://github.com/andressavasconcelos
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+google_analytics: "UA-XXXXXXXX-X"
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

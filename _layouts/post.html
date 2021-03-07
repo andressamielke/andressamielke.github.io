@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<h1 class="title">{{ page.title }}</h1>
+
+<div class="tags are-medium">
+  {% for cat in page.categories %}
+  <a href="/categories/#{{ cat }}">
+    <span class="tag is-primary mr-2">
+      <i class="fas fa-tag"></i> {{ cat }}
+    </span>
+  </a>
+  {% endfor %}
+</div>
+
+{{ content }}
+
+<!-- AddToAny BEGIN -->
+
+{% if page.lang %}
+<h4>Share</h4>
+{% else %}
+<h4>Compartilhe</h4>
+{% endif %}
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+  <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+  <a class="a2a_button_facebook"></a>
+  <a class="a2a_button_twitter"></a>
+  <a class="a2a_button_email"></a>
+  <a class="a2a_button_linkedin"></a>
+  <a class="a2a_button_reddit"></a>
+  <a class="a2a_button_telegram"></a>
+  <a class="a2a_button_whatsapp"></a>
+  <a class="a2a_button_pocket"></a>
+</div>
+ <script async src="https://static.addtoany.com/menu/page.js"></script>
+ <!-- AddToAny END -->
+
+{% if page.comments %}
+  {% if page.lang %}
+  <h4>Comments</h4>
+  {% else %}
+  <h4>Comentários</h4>
+  {% endif %}
+  
+  {% include disqus.html %}
+{% endif %}

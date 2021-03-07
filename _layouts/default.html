@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " pt-BR" }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+
+  <!-- scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <!-- estilos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="/assets/css/bulmaswatch.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include ganalytics.html %}
+  {% seo %}
+  {% endif %}
+</head>
+
+<body>
+  {% include navbar.html %}
+  <div class="container is-fluid">
+    {% if page.url == "/" %}
+    {% include hero.html %}
+    {% endif %}
+    <section class="section">
+      <div class="content">
+        {{ content }}
+      </div>
+    </section>
+  </div>
+  {% include footer.html %}
+</body>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+
+    // Check for click events on the navbar burger icon
+    $(".navbar-burger").click(function () {
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      $(".navbar-burger").toggleClass("is-active");
+      $(".navbar-menu").toggleClass("is-active");
+
+    });
+  });
+</script>
+
+</html>

@@ -1,0 +1,10 @@
+- name: Sobre
+  link: /sobre.html
+- name: Posts
+  link: /posts.html
+- name: Pesquisa
+  link: /pesquisa.html
+- name: Ensino
+  link: /ensino.html
+- name: Arquivos
+  link: /arquivos.html
