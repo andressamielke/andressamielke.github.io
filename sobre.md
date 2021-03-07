@@ -7,8 +7,8 @@ layout: default
 
 # Sobre
 
-Exemplo de imagem:
-
 ![img](/assets/img/bio.jpg)
 
-teste teste!
+Doutoranda em Economia Aplicada - Universidade Federal do Rio Grande do Sul
+Mestre em Economia Aplicada - Universidade Federal de Pelotas
+Bacharel em Ciências Econômicas - Universidade Federal de Pelotas
