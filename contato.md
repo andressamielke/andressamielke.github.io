@@ -16,6 +16,8 @@ layout: default
     E-mail:
     <input type="email" name="_replyto">
   </label>
+  
+  
   <label>
     Mensagem:
     <textarea name="message"></textarea>
@@ -23,5 +25,5 @@ layout: default
 
   <!-- your other form fields go here -->
 
-  <button type="Enviar">Send</button>
+  <button type="Enviar">Enviar</button>
 </form>
