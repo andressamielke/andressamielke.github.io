@@ -27,12 +27,6 @@ layout: default
         </div>
       </div>
 
-      <div class="field">
-        <label class="label">Arquivo:</label>
-        <div class="control">
-          <input class="button" type="file" name="upload">
-        </div>
-      </div>
 
       <button class="button is-primary" type="submit">Enviar</button>
     </form>
