@@ -6,16 +6,26 @@ layout: default
 ---
 
 # Contato
+<?php
 
-<form action="/contact" id="contact-form" enctype="multipart/form-data">
- 	 <input type="text" name="subject"/>
- 	 <textearea name="content"></textearea>
- 	 <input type="radio" name="civility" value="Mr"/> Mr
- 	 <input type="radio" name="civility" value="Mrs"/> Mrs
- 	 <input type="text" name="name"/>*
- 	 <input type="email" name="email"/>
- 	 <input type="file" name="attachment"/>
- 	 <input type="checkbox" name="cc"/> Receive a copy
- 	 <input type="submit"/>
-  </form> 
- /
+return [
+    'subject' => [
+        'prefix' => '[Contact Form]'
+    ],
+    'emails' => [
+        'to'   => '',
+        'from' => ''
+    ],
+    'messages' => [
+        'error'   => 'There was an error sending your message, please try again later.',
+        'success' => 'Your message has been sent successfully.'
+    ],
+    'fields' => [
+        'name'     => 'Name',
+        'email'    => 'Email',
+        'phone'    => 'Phone',
+        'subject'  => 'Subject',
+        'message'  => 'Message',
+        'btn-send' => 'Send'
+    ]
+];
