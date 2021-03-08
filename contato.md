@@ -6,26 +6,22 @@ layout: default
 ---
 
 # Contato
-<?php
+<!-- modify this form HTML and place wherever you want your form -->
 
-return [
-    'subject' => [
-        'prefix' => '[Contact Form]'
-    ],
-    'emails' => [
-        'to'   => '',
-        'from' => ''
-    ],
-    'messages' => [
-        'error'   => 'There was an error sending your message, please try again later.',
-        'success' => 'Your message has been sent successfully.'
-    ],
-    'fields' => [
-        'name'     => 'Name',
-        'email'    => 'Email',
-        'phone'    => 'Phone',
-        'subject'  => 'Subject',
-        'message'  => 'Message',
-        'btn-send' => 'Send'
-    ]
-];
+<form
+  action="https://formspree.io/f/mqkgrklg"
+  method="POST"
+>
+  <label>
+    E-mail:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Mensagem:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="Enviar">Send</button>
+</form>
