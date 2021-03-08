@@ -5,11 +5,7 @@
 layout: default
 ---
 
-<div class="columns is-vcentered">
-  <div class="column">
-    ![img](/assets/img/bio.jpg)
-  </div>
-</div>
+![img](/assets/img/bio.jpg)
 
 # Formação
 
