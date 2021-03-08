@@ -21,7 +21,7 @@ layout: default
   
    <label>
       Mensagem:
-    <input type="message"></textarea>
+    <input type="message" name="/textarea">
   </label>
   
   
