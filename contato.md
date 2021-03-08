@@ -7,35 +7,15 @@ layout: default
 
 # Contato
 
-<?php
-$field_name = $_POST['cf_name'];
-$field_email = $_POST['cf_email'];
-$field_message = $_POST['cf_message'];
-
-$mail_to = 'youremail@emaildomain.com';
-$subject = 'Your Subject'.$field_name;
-
-$body_message = 'From: '.$field_name."\n";
-$body_message .= 'E-mail: '.$field_email."\n";
-$body_message .= 'Message: '.$field_message;
-
-$headers = 'From: '.$field_email."\r\n";
-$headers .= 'Reply-To: '.$field_email."\r\n";
-
-$mail_status = mail($mail_to, $subject, $body_message, $headers);
-
-if ($mail_status) { ?>
-	<script language="javascript" type="text/javascript">
-		alert('Sucess Message');
-		window.location = 'contact.html';
-	</script>
-<?php
-}
-else { ?>
-	<script language="javascript" type="text/javascript">
-		alert('Error Message');
-		window.location = 'contact.html';
-	</script>
-<?php
-}
-?>
+<form action="/contact" id="contact-form" enctype="multipart/form-data">
+ 	 <input type="text" name="subject"/>
+ 	 <textearea name="content"></textearea>
+ 	 <input type="radio" name="civility" value="Mr"/> Mr
+ 	 <input type="radio" name="civility" value="Mrs"/> Mrs
+ 	 <input type="text" name="name"/>*
+ 	 <input type="email" name="email"/>
+ 	 <input type="file" name="attachment"/>
+ 	 <input type="checkbox" name="cc"/> Receive a copy
+ 	 <input type="submit"/>
+  </form> 
+ /
