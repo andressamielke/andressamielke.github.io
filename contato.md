@@ -12,17 +12,16 @@ layout: default
 <form
   action="https://formspree.io/f/mqkgrklg"
   method="POST"
+  enctype="multipart/form-data"
 >
   <label>
     Your email:
     <input type="email" name="_replyto">
   </label>
   <label>
-    Your message:
-    <textarea name="message"></textarea>
+    Your file:
+    <input type="file" name="upload">
   </label>
-
-  <!-- your other form fields go here -->
 
   <button type="submit">Send</button>
 </form>
