@@ -14,11 +14,19 @@ layout: default
 
     <form action="https://formspree.io/f/mqkgrklg" method="POST" enctype="multipart/form-data">
       <div class="field">
-        <label class="label">Seu e-mail:</label>
+        <label class="label">E-mail:</label>
         <div class="control">
           <input class="input" type="email" name="_replyto">
         </div>
       </div>
+
+      <div class="field">
+        <label class="label">Nome:</label>
+        <div class="control">
+          <input class="textarea" type="message" name="/textarea">
+        </div>
+      </div>
+
 
       <div class="field">
         <label class="label">Mensagem:</label>
@@ -26,8 +34,7 @@ layout: default
           <input class="textarea" type="message" name="/textarea">
         </div>
       </div>
-
-
+      
       <button class="button is-primary" type="submit">Enviar</button>
     </form>
 
