@@ -5,7 +5,7 @@
 layout: default
 ---
 
-# Sobre
+
 
 ![img](/assets/img/bio.jpg)
 
