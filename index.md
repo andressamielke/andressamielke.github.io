@@ -15,4 +15,3 @@ Aqui, você poderá encontrar informações sobre minha formação, experiência
 Fique à vontade e, para acessar minhas redes, clique abaixo:
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/andressa-mielke-vasconcelos-6496b6164/)
-&nbsp;
