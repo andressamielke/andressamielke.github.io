@@ -7,7 +7,7 @@ layout: default
 
 
 
-![img](/assets/img/bio.jpg)
+![img](/assets/img/bio.jpg#center)
 
 # Formação
 
