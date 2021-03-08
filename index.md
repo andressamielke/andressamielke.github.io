@@ -11,6 +11,8 @@ layout: default
 
 ### Subsubtítulo
 
+<p align="center">
+
 Exemplo de texto em Markdown. **Negrito**, *Itálico*, um [link para o Google](https://www.google.com/).
 
 > Uma citação!
