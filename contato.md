@@ -7,26 +7,35 @@ layout: default
 
 # Contato
 
+<?php
+$field_name = $_POST['cf_name'];
+$field_email = $_POST['cf_email'];
+$field_message = $_POST['cf_message'];
 
-<!DOCTYPE>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Contact Form</title>
-</head>
-<body>
+$mail_to = 'youremail@emaildomain.com';
+$subject = 'Your Subject'.$field_name;
 
+$body_message = 'From: '.$field_name."\n";
+$body_message .= 'E-mail: '.$field_email."\n";
+$body_message .= 'Message: '.$field_message;
 
-<form method="post" action="contact.php">
-	<label for="name">Name:</label>
-	<input type="text" class="text" name="cf_name" id="name" />
-	<label for="email">email:</label>
-	<input type="text" class="text" name="cf_email" id="email" />
-	<label for="text">Message:</label>
-	<textarea class="text" name="cf_message" id="message"></textarea>
-	<input type="submit" class="submit" value="Send" />
-</form>
+$headers = 'From: '.$field_email."\r\n";
+$headers .= 'Reply-To: '.$field_email."\r\n";
 
+$mail_status = mail($mail_to, $subject, $body_message, $headers);
 
-</body>
-</html>
+if ($mail_status) { ?>
+	<script language="javascript" type="text/javascript">
+		alert('Sucess Message');
+		window.location = 'contact.html';
+	</script>
+<?php
+}
+else { ?>
+	<script language="javascript" type="text/javascript">
+		alert('Error Message');
+		window.location = 'contact.html';
+	</script>
+<?php
+}
+?>
