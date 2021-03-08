@@ -6,10 +6,10 @@ layout: default
 ---
 
 
-<p align="center">Bem-vindos à minha página pessoal!</p>
+<p align="center">Bem-vindo à minha página pessoal!</p>
 <p align="center">Aqui, você poderá encontrar informações sobre minha formação, experiências, pesquisas e construção da
   carreira em ensino.</p>
-<p align="center">Fiquem à vontade e, para ter acesso às minhas redes, cliquem abaixo:</p>
+<p align="center">Fique à vontade e, para ter acesso às minhas redes, clique abaixo:</p>
 
 <p align="center">
   <a class="button is-primary" href="https://www.linkedin.com/in/andressa-mielke-vasconcelos-6496b6164/">LinkedIn</a>
