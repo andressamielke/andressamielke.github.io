@@ -5,7 +5,9 @@
 layout: default
 ---
 
-![img](/assets/img/bio.jpg)
+<p align="center">
+  <img src="/assets/img/bio.jpg" />
+</p>
 
 # Formação
 
