@@ -1,7 +1,5 @@
-- name: Sobre
-  link: /sobre.html
-- name: Posts
-  link: /posts.html
+- name: Perfil
+  link: /perfil.html
 - name: Pesquisa
   link: /pesquisa.html
 - name: Ensino
