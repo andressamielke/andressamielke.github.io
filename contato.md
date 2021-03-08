@@ -13,6 +13,13 @@ layout: default
   <div class="column is-half">
 
     <form action="https://formspree.io/f/mqkgrklg" method="POST" enctype="multipart/form-data">
+            <div class="field">
+        <label class="label">Nome:</label>
+        <div class="control">
+          <input class="input" type="message" name="/textarea">
+        </div>
+      </div>
+      
       <div class="field">
         <label class="label">E-mail:</label>
         <div class="control">
@@ -20,12 +27,6 @@ layout: default
         </div>
       </div>
 
-      <div class="field">
-        <label class="label">Nome:</label>
-        <div class="control">
-          <input class="textarea" type="message" name="/textarea">
-        </div>
-      </div>
 
 
       <div class="field">
