@@ -15,13 +15,20 @@ layout: default
   enctype="multipart/form-data"
 >
   <label>
-    Your email:
+    Seu e-mail:
     <input type="email" name="_replyto">
   </label>
+  
+   <label>
+      Mensagem:
+    <textarea name="message"></textarea>
+  </label>
+  
+  
   <label>
-    Your file:
+    Arquivo:
     <input type="file" name="upload">
   </label>
 
-  <button type="submit">Send</button>
+  <button type="submit">Enviar</button>
 </form>
