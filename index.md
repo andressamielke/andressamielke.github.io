@@ -16,7 +16,7 @@ layout: default
   
   <a class="button is-primary" href="https://drive.google.com/file/d/1w_hM_fBR-AhA3jI16xKUP2hiugsxym7S/view?usp=sharing">CV</a>
   
-  <a class="button is-primary" href="https://scholar.google.com.br/citations?user=4KtSi9MAAAAJ&hl=pt-BR">Google Acaddêmico</a>
+  <a class="button is-primary" href="https://scholar.google.com.br/citations?user=4KtSi9MAAAAJ&hl=pt-BR">Google Acadêmico</a>
   
   <a class="button is-primary" href="https://twitter.com/VasconcelosAM">Twitter</a>
   
