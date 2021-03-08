@@ -5,10 +5,11 @@
 layout: default
 ---
 
-
-<p align="center">
-
-![img](/assets/img/bio.jpg#center)
+<div class="columns is-vcentered">
+  <div class="column">
+    ![img](/assets/img/bio.jpg)
+  </div>
+</div>
 
 # Formação
 
