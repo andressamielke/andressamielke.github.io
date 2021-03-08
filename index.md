@@ -14,4 +14,6 @@ Aqui, você poderá encontrar informações sobre minha formação, experiência
 
 Fique à vontade e, para acessar minhas redes, clique abaixo:
 
-<script async defer src="https://buttons.github.io/buttons.js></script>
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/)
+&nbsp;
+[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/)
