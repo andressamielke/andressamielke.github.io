@@ -5,41 +5,10 @@
 layout: default
 ---
 
-# Título
-
-## Subtítulo
-
-### Subsubtítulo
 
 <p align="center">
 
-Exemplo de texto em Markdown. **Negrito**, *Itálico*, um [link para o Google](https://www.google.com/).
-
-> Uma citação!
->
-> *Fulano de Tal*
-
-- Uma lista de itens
-- Com vários itens
-
-Uma equação em LaTeX: $$e=mc^2$$
-
-$$ x^2 = \frac{2}{3} $$
-
-Uma caixa com código:
-
-```r
-library(tidyverse)
-
-x <- 2
-```
-
-Os códigos a seguir são em HTML:
-
-<div class="notification is-primary">
-  Uma caixa de texto com algo importante.
-</div>
+Bem-vindos à minha página pessoal! Aqui, você poderá encontrar informações sobre minha formação, experiências, pesquisas e construção da carreira em ensino. Fique à vontade e, para acessar minhas redes, clique abaixo:
 
 <a href="#" class="button is-primary">
-  Um botão
-</a>
+[CV](<p align="center">)</a>
