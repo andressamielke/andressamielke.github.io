@@ -7,7 +7,7 @@ layout: default
 <div class="tags are-medium">
   {% for cat in site.categories %}
   <a href="/categories/#{{ cat | first }}">
-    <span class="tag is-primary mr-2">
+    <span class="tag is-dark mr-2">
       <i class="fas fa-tag"></i> {{ cat | first }}
     </span>
   </a>

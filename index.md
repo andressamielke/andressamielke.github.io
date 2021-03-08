@@ -12,14 +12,14 @@ layout: default
 <p align="center">Fique à vontade e, para ter acesso às minhas redes, clique abaixo:</p>
 
 <p align="center">
-  <a class="button is-primary" href="https://www.linkedin.com/in/andressa-mielke-vasconcelos-6496b6164/">LinkedIn</a>
+  <a class="button is-dark" href="https://www.linkedin.com/in/andressa-mielke-vasconcelos-6496b6164/">LinkedIn</a>
   
-  <a class="button is-primary" href="https://drive.google.com/file/d/1w_hM_fBR-AhA3jI16xKUP2hiugsxym7S/view?usp=sharing">CV</a>
+  <a class="button is-dark" href="https://drive.google.com/file/d/1w_hM_fBR-AhA3jI16xKUP2hiugsxym7S/view?usp=sharing">CV</a>
   
-  <a class="button is-primary" href="https://scholar.google.com.br/citations?user=4KtSi9MAAAAJ&hl=pt-BR">Google Acadêmico</a>
+  <a class="button is-dark" href="https://scholar.google.com.br/citations?user=4KtSi9MAAAAJ&hl=pt-BR">Google Acadêmico</a>
   
-  <a class="button is-primary" href="https://twitter.com/VasconcelosAM">Twitter</a>
+  <a class="button is-dark" href="https://twitter.com/VasconcelosAM">Twitter</a>
   
-  <a class="button is-primary" href="https://www.instagram.com/andressa.mielke/">Instagram</a>
+  <a class="button is-dark" href="https://www.instagram.com/andressa.mielke/">Instagram</a>
 
 </p>

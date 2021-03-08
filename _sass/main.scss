@@ -7,6 +7,10 @@ $bodyColor: #333333;
   --animate-repeat: 1;
 }
 
+a:link {
+  color: #222;
+}
+
 body {
   background: $backgroundColor;
   color: $bodyColor;
