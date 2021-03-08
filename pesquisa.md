@@ -14,4 +14,4 @@ Revista Brasileira de Economia, v. 71, nº 2, p. 233-257, 2017.
 Análise Econômica, ano 35, nº especial, p. 289-315, 2017.
 
 [O mito do eleitor racional brasileiro: você vota irracionalmente?](http://editorarevistas.mackenzie.br/index.php/rem/article/view/11966)
-Revista de Economia Mackenzie, v.16, n.2, p.11-52., 2019.
+Revista de Economia Mackenzie, v.16, n.2, p.11-52, 2019.
