@@ -13,3 +13,6 @@ Bem-vindos à minha página pessoal!
 Aqui, você poderá encontrar informações sobre minha formação, experiências, pesquisas e construção da carreira em ensino. 
 
 Fique à vontade e, para acessar minhas redes, clique abaixo:
+
+  <a class="a2a_button_twitter"><ww.twitter.com.br>
+
