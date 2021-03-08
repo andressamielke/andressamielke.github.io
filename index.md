@@ -23,3 +23,8 @@ Fique à vontade e, para acessar minhas redes, clique abaixo:
     icon = "twitter"
     icon_pack = "fa"
     link = "//twitter.com/VasconcelosAM"
+    
+[[params.social]]
+  icon = "google-scholar"
+  icon_pack = "ai"
+  link = "https://scholar.google.co.in/citations?user=4KtSi9MAAAAJ&hl=pt-BR"
