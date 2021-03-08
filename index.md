@@ -14,17 +14,4 @@ Aqui, você poderá encontrar informações sobre minha formação, experiência
 
 Fique à vontade e, para acessar minhas redes, clique abaixo:
 
- [[params.social]]
-    icon = "linkedin"
-    icon_pack = "fa"
-    link = "//linkedin.com/in/andressa-mielke-vasconcelos-6496b6164/"
-    
- [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/VasconcelosAM"
-    
-[[params.social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.co.in/citations?user=4KtSi9MAAAAJ&hl=pt-BR"
+<script async defer src="https://buttons.github.io/buttons.js></script>
