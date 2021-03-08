@@ -21,7 +21,7 @@ Bacharel em Ciências Econômicas - Universidade Federal de Pelotas
 
 Assessora de Economia e Políticas Públicas - Assembleia Legislativa do Estado do Rio Grande do Sul
 
-Assistente de Pesquias - FGV EESP Clear
+Assistente de Pesquisa - FGV EESP Clear
 
 Estágio em Docência - Universidade Federal de Pelotas
 
