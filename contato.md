@@ -9,26 +9,33 @@ layout: default
 
 <!-- modify this form HTML and place wherever you want your form -->
 
-<form
-  action="https://formspree.io/f/mqkgrklg"
-  method="POST"
-  enctype="multipart/form-data"
->
-  <label>
-    Seu e-mail:
-    <input type="email" name="_replyto">
-  </label>
-  
-   <label>
-      Mensagem:
-    <input type="message" name="/textarea">
-  </label>
-  
-  
-  <label>
-    Arquivo:
-    <input type="file" name="upload">
-  </label>
+<div class="columns">
+  <div class="column is-half">
 
-  <button type="submit">Enviar</button>
-</form>
+    <form action="https://formspree.io/f/mqkgrklg" method="POST" enctype="multipart/form-data">
+      <div class="field">
+        <label class="label">Seu e-mail:</label>
+        <div class="control">
+          <input class="input" type="email" name="_replyto">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Mensagem:</label>
+        <div class="control">
+          <input class="textarea" type="message" name="/textarea">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Arquivo:</label>
+        <div class="control">
+          <input class="button" type="file" name="upload">
+        </div>
+      </div>
+
+      <button class="button is-primary" type="submit">Enviar</button>
+    </form>
+
+  </div>
+</div>

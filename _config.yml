@@ -1,9 +1,9 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 title: "Andressa Vasconcelos | Site pessoal"
-description: "Teste teste"
+description: "Site pessoal"
 lang: "pt-BR"
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Meu site" # the name of your site, e.g. ACME Corp.
+title: "Andressa Vasconcelos" # the name of your site, e.g. ACME Corp.
 
 permalink: /posts/:title:output_ext
 
@@ -16,7 +16,7 @@ social:
   name: Andressa Mielke Vasconcelos
   links:
     - https://www.linkedin.com/in/nome/
-    - https://github.com/andressavasconcelos
+    - https://github.com/andressamielke
 
 plugins:
   - jekyll-seo-tag
