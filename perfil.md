@@ -6,6 +6,7 @@ layout: default
 ---
 
 
+<p align="center">
 
 ![img](/assets/img/bio.jpg#center)
 
