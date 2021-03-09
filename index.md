@@ -18,6 +18,8 @@ layout: default
   
   <a class="button is-dark" href="https://scholar.google.com.br/citations?user=4KtSi9MAAAAJ&hl=pt-BR">Google Acadêmico</a>
   
+  <a class="button is-dark" href="https://www.researchgate.net/profile/Andressa-Vasconcelos">ResearchGate</a>
+  
   <a class="button is-dark" href="https://twitter.com/VasconcelosAM">Twitter</a>
   
   <a class="button is-dark" href="https://www.instagram.com/andressa.mielke/">Instagram</a>
