@@ -7,8 +7,6 @@ layout: default
 
 # Trabalhos publicados em periódicos
 
-<a class="link-gray" href="#url">link-gray</a>
-
 [Programa Bolsa Família e Geração “Nem-Nem”: Evidências para o Brasil.](https://www.scielo.br/pdf/rbe/v71n2/0034-7140-rbe-71-02-0233.pdf) 
 Revista Brasileira de Economia, v. 71, nº 2, p. 233-257, 2017.
 
