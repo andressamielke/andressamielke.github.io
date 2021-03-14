@@ -32,7 +32,7 @@ layout: default
       <div class="field">
         <label class="label">Mensagem:</label>
         <div class="control">
-          <input class="textarea" type="message" name="/textarea">
+          <textarea class="textarea" type="message" name="message"></textarea>
         </div>
       </div>
       
