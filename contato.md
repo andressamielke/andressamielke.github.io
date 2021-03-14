@@ -36,7 +36,7 @@ layout: default
         </div>
       </div>
       
-      <button class="button is-dark" type="submit">Enviar</button>
+      <button class="button is-dark is-outlined" type="submit">Enviar</button>
     </form>
 
   </div>
