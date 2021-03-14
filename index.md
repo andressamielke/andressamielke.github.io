@@ -12,7 +12,7 @@ layout: default
 <p align="center">Fique à vontade e, para ter acesso às minhas redes, clique abaixo:</p>
 
 <p align="center">
-  <a class="button is-purple is-outlined is-rounded" href="https://www.linkedin.com/in/andressa-mielke-vasconcelos-6496b6164/">LinkedIn</a>
+  <a class="button is-dark is-outlined is-rounded" href="https://www.linkedin.com/in/andressa-mielke-vasconcelos-6496b6164/">LinkedIn</a>
   
   <a class="button is-dark is-outlined is-rounded" href="https://drive.google.com/file/d/1w_hM_fBR-AhA3jI16xKUP2hiugsxym7S/view?usp=sharing">CV</a>
   
@@ -20,8 +20,8 @@ layout: default
   
   <a class="button is-dark is-outlined is-rounded" href="https://www.researchgate.net/profile/Andressa-Vasconcelos">ResearchGate</a>
   
-  <a class="button is-light is-outlined is-rounded" href="https://twitter.com/VasconcelosAM">Twitter</a>
+  <a class="button is-dark is-outlined is-rounded" href="https://twitter.com/VasconcelosAM">Twitter</a>
   
-  <a class="button is-light is-outlined is-rounded" href="https://www.instagram.com/andressa.mielke/">Instagram</a>
+  <a class="button is-dark is-outlined is-rounded" href="https://www.instagram.com/andressa.mielke/">Instagram</a>
 
 </p>
